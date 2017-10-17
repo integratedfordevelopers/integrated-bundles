@@ -78,11 +78,11 @@
             "Integrated\\Bundle\\ThemeBundle\\": "theme-bundle/",
             "Integrated\\Bundle\\UserBundle\\": "user-bundle/",
             "Integrated\\Bundle\\WebsiteBundle\\": "website-bundle/",
-            "Integrated\\Bundle\\WorkflowBundle\\": "workflow-bundle/"
+            "Integrated\\Bundle\\WorkflowBundle\\": "workflow-bundle/",
             "Integrated\\MongoDB\\": "libary/src/",
             "Integrated\\Doctrine\\": "libary/src/",
             "Integrated\\Common\\": "libary/src/"
-        },
+        }
     },
     "autoload-dev": {
         "psr-0": {
