@@ -1,0 +1,9 @@
+{% extends 'IntegratedContentBundle:Content:edit.html.twig' %}
+
+{% block crumbs_items %}
+    <li class="active">{% trans %}New{% endtrans %}</li>
+{% endblock %}
+
+{% block pageTitle %}
+    {% trans %}New{% endtrans %} {{ type.name }}
+{% endblock %}
