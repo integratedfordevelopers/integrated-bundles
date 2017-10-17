@@ -1,5 +1,5 @@
 {
-    "name": "integrated/integrated-bundles",
+    "name": "integrated/bundles",
     "type": "symfony-bundle",
     "description": "Open source content platform for publishers",
     "keywords": [
