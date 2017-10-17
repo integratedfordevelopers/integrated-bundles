@@ -1,0 +1,97 @@
+{
+    "name": "integrated/integrated-bundles",
+    "type": "symfony-bundle",
+    "description": "Open source content platform for publishers",
+    "keywords": [
+        "Integrated",
+        "content store",
+        "publishing"
+    ],
+    "homepage": "https://www.integratedfordevelopers.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "e-Active",
+            "homepage": "https://www.e-active.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.6",
+        "symfony/symfony": "~2.8 || ~3.0",
+        "twig/twig": "1.*",
+        "doctrine/inflector": "1.*",
+        "sensio/framework-extra-bundle": "~3.0",
+        "doctrine/mongodb": "~1.3",
+        "doctrine/mongodb-odm": "~1.1.2",
+        "doctrine/mongodb-odm-bundle": "~3.2",
+        "knplabs/knp-paginator-bundle": "~2.5",
+        "braincrafted/bootstrap-bundle": ">=2.2",
+        "doctrine/doctrine-bundle": "~1.6",
+        "symfony/framework-bundle": "~2.8 || ~3.0",
+        "ext-mongo": "~1.2",
+        "ext-intl": "*",
+        "doctrine/doctrine-fixtures-bundle": "~2.3",
+        "gregwar/image-bundle": "~2.1",
+        "knplabs/knp-menu-bundle": "~2.1",
+        "nelmio/alice": "~1.7",
+        "twbs/bootstrap": "~3.3",
+        "friendsofsymfony/jsrouting-bundle": "~1.5",
+        "vihuvac/recaptcha-bundle": "~2.1.4",
+        "sp/bower-bundle": "~0.11",
+        "doctrine/common": "~2",
+        "symfony/security-acl": "~2.8 || ~3.0",
+        "doctrine/orm": "~2.5,",
+        "solarium/solarium": "~3.7",
+        "psr/log": "~1.0",
+        "symfony/polyfill-iconv": "~1.0",
+        "jms/metadata": "~1.5",
+        "abraham/twitteroauth": "^0.7.3",
+        "facebook/graph-sdk": "~5.0",
+        "knplabs/knp-gaufrette-bundle": "~0.1.7",
+        "doctrine/collections": "~1.3",
+        "fzaninotto/faker": "~1.6"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.8",
+        "phpunit/phpunit": "^5.7",
+        "doctrine/dbal": "~2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Integrated\\Bundle\\AssetBundle\\": "asset-bundle/",
+            "Integrated\\Bundle\\BlockBundle\\": "block-bundle/",
+            "Integrated\\Bundle\\ChannelBundle\\": "channel-bundle/",
+            "Integrated\\Bundle\\CommentBundle\\": "comment-bundle/",
+            "Integrated\\Bundle\\ContentHistoryBundle\\": "content-history-bundle/",
+            "Integrated\\Bundle\\ContentBundle\\": "content-bundle/",
+            "Integrated\\Bundle\\FormTypeBundle\\": "formtype-bundle/",
+            "Integrated\\Bundle\\ImageBundle\\": "image-bundle/",
+            "Integrated\\Bundle\\LockingBundle\\": "locking-bundle/",
+            "Integrated\\Bundle\\MenuBundle\\": "menu-bundle/",
+            "Integrated\\Bundle\\PageBundle\\": "page-bundle/",
+            "Integrated\\Bundle\\SlugBundle\\": "slug-bundle/",
+            "Integrated\\Bundle\\SocialBundle\\": "social-bundle/",
+            "Integrated\\Bundle\\SolrBundle\\": "solr-bundle/",
+            "Integrated\\Bundle\\StorageBundle\\": "storage-bundle/",
+            "Integrated\\Bundle\\ThemeBundle\\": "theme-bundle/",
+            "Integrated\\Bundle\\UserBundle\\": "user-bundle/",
+            "Integrated\\Bundle\\WebsiteBundle\\": "website-bundle/",
+            "Integrated\\Bundle\\WorkflowBundle\\": "workflow-bundle/"
+            "Integrated\\MongoDB\\": "libary/src/",
+            "Integrated\\Doctrine\\": "libary/src/",
+            "Integrated\\Common\\": "libary/src/"
+        },
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "Integrated\\Tests\\MongoDB\\": "libary/tests/",
+            "Integrated\\Tests\\Doctrine\\": "libary/tests/",
+            "Integrated\\Tests\\Common\\": "libary/tests/"
+        }
+    },
+    "suggest": {
+        "ext-imagick": "Allows more image formats to be uploaded"
+    }
+}

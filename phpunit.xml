@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         syntaxCheck="false"
+         bootstrap="./vendor/autoload.php"
+>
+    <testsuites>
+        <testsuite name="asset-bundle Test Suite">
+            <directory>./asset-bundle/Tests</directory>
+        </testsuite>
+        <testsuite name="block-bundle Test Suite">
+            <directory>./block-bundle/Tests</directory>
+        </testsuite>
+        <testsuite name="channel-bundle Test Suite">
+            <directory>./channel-bundle/Tests</directory>
+        </testsuite>
+        <testsuite name="comment-bundle Test Suite">
+            <directory>./comment-bundle/Tests</directory>
+        </testsuite>
+        <testsuite name="content-history-bundle Test Suite">
+            <directory>./content-history-bundle/Tests</directory>
+        </testsuite>
+        <testsuite name="content-bundle Test Suite">
+            <directory>./content-bundle/Tests</directory>
+        </testsuite>
+        <testsuite name="formtype-bundle Test Suite">
+            <directory>./formtype-bundle/Tests</directory>
+        </testsuite>
+        <testsuite name="image-bundle Test Suite">
+            <directory>./image-bundle/Tests</directory>
+        </testsuite>
+        <testsuite name="library Test Suite">
+            <directory>./library/Tests</directory>
+        </testsuite>
+        <testsuite name="locking-bundle Test Suite">
+            <directory>./locking-bundle/Tests</directory>
+        </testsuite>
+        <testsuite name="menu-bundle Test Suite">
+            <directory>./menu-bundle/Tests</directory>
+        </testsuite>
+        <testsuite name="page-bundle Test Suite">
+            <directory>./page-bundle/Tests</directory>
+        </testsuite>
+        <testsuite name="slug-bundle Test Suite">
+            <directory>./slug-bundle/Tests</directory>
+        </testsuite>
+        <testsuite name="social-bundle Test Suite">
+            <directory>./social-bundle/Tests</directory>
+        </testsuite>
+        <testsuite name="solr-bundle Test Suite">
+            <directory>./solr-bundle/Tests</directory>
+        </testsuite>
+        <testsuite name="storage-bundle Test Suite">
+            <directory>./storage-bundle/Tests</directory>
+        </testsuite>
+        <testsuite name="theme-bundle Test Suite">
+            <directory>./theme-bundle/Tests</directory>
+        </testsuite>
+        <testsuite name="user-bundle Test Suite">
+            <directory>./user-bundle/Tests</directory>
+        </testsuite>
+        <testsuite name="website-bundle Test Suite">
+            <directory>./website-bundle/Tests</directory>
+        </testsuite>
+        <testsuite name="workflow-bundle Test Suite">
+            <directory>./workflow-bundle/Tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
