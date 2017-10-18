@@ -79,9 +79,9 @@
             "Integrated\\Bundle\\UserBundle\\": "user-bundle/",
             "Integrated\\Bundle\\WebsiteBundle\\": "website-bundle/",
             "Integrated\\Bundle\\WorkflowBundle\\": "workflow-bundle/",
-            "Integrated\\MongoDB\\": "libary/src/",
-            "Integrated\\Doctrine\\": "libary/src/",
-            "Integrated\\Common\\": "libary/src/"
+            "Integrated\\MongoDB\\": "library/src/Integrated/MongoDB/",
+            "Integrated\\Doctrine\\": "library/src/Integrated/Doctrine/",
+            "Integrated\\Common\\": "library/src/Integrated/Common/"
         }
     },
     "autoload-dev": {
@@ -93,5 +93,27 @@
     },
     "suggest": {
         "ext-imagick": "Allows more image formats to be uploaded"
+    },
+    "replace": {
+        "integrated-asset-bundle": "self.version",
+        "integrated-block-bundle": "self.version",
+        "integrated-channel-bundle": "self.version",
+        "integrated-comment-bundle": "self.version",
+        "integrated-content-history-bundle": "self.version",
+        "integrated-content-bundle": "self.version",
+        "integrated-formtype-bundle": "self.version",
+        "integrated-image-bundle": "self.version",
+        "integrated-library": "self.version",
+        "integrated-locking-bundle": "self.version",
+        "integrated-menu-bundle": "self.version",
+        "integrated-page-bundle": "self.version",
+        "integrated-slug-bundle": "self.version",
+        "integrated-social-bundle": "self.version",
+        "integrated-solr-bundle": "self.version",
+        "integrated-storage-bundle": "self.version",
+        "integrated-theme-bundle": "self.version",
+        "integrated-user-bundle": "self.version",
+        "integrated-website-bundle": "self.version",
+        "integrated-workflow-bundle": "self.version"
     }
 }
